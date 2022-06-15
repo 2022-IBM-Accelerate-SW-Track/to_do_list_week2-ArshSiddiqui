@@ -26,7 +26,7 @@ class Home extends Component {
         break;
       }
     }
-    console.log(todoAlreadyInList);
+    
     if(!todoAlreadyInList){
       console.log(this.state.todos);
       console.log(todo);
